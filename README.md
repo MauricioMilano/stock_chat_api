@@ -5,7 +5,7 @@ This project serves as the backend for a real-time chat application with multipl
 ## Prerequisites
 
 - **Go (Golang)**: Ensure you have Go version 1.21.3 or higher installed.
-- ## Build:
+## Build:
     1. Open a terminal or command prompt.
     2. Navigate to the root directory of your project (where `main.go` is located).
     3. Run the following command to build the server binary:
@@ -113,3 +113,19 @@ Response:
     ]
 }
 ```
+
+## WebSocket Endpoint
+
+### `/ws`
+
+- **Parameters**:
+    - `jwt`: Token for authentication.
+    - `room_id`: Integer representing the chat room ID.
+
+- **Body**:
+    ```json
+    {
+        "chatRoomId": 1,
+        "chatMessage": "Message"
+    }
+    ```
