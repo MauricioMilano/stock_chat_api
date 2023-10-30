@@ -6,13 +6,13 @@ This project serves as the backend for a real-time chat application with multipl
 
 - **Go (Golang)**: Ensure you have Go version 1.21.3 or higher installed.
 ## Build:
-    1. Open a terminal or command prompt.
-    2. Navigate to the root directory of your project (where `main.go` is located).
-    3. Run the following command to build the server binary:
-        ```bash
-        go build main.go
-        ```
-    4. This will create an executable binary (e.g., `main`) in the same directory.
+1. Open a terminal or command prompt.
+2. Navigate to the root directory of your project (where `main.go` is located).
+3. Run the following command to build the server binary:
+    ```bash
+    go build main.go
+    ```
+4. This will create an executable binary (e.g., `main`) in the same directory.
 
 ## Running the Server
 
